@@ -1,0 +1,92 @@
+@font-face {
+    font-family: k;
+    src: url(fonts/colocheh.ttf);
+}
+* {
+    font-family: k;
+}
+
+html,
+body {
+    height: 100%;
+    font-size: 1rem;
+}
+
+
+.gradient {
+    background: rgb(2,0,36);
+    background: linear-gradient(
+        135deg,
+         rgba(0,199,200,1) 0%,
+         rgba(132,0,255,1) 100%);
+}
+
+.page-header {
+    direction: ltr;
+    margin-top: 7rem;
+    font-size: 1.25rem;
+    color: #fff;
+    font-family: k;
+}
+
+.headerr{
+    direction: rtl;
+}
+ 
+ .underlinetxt {
+     text-align: center;
+     font-family: k;
+     font-size: 2rem;
+}
+
+.c1 {
+    direction: rtl;
+    font-family: k;
+    color: #fff;
+}
+ 
+.ul1 {
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.icon {
+    color: #fff;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.ic {
+    height: 2rem;
+    width: 2rem;
+}
+
+.gallery {
+    background-color: #dedede;
+}
+
+.gallery img {
+    border-radius: 10%;
+}
+
+.txt {
+    direction: rtl;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+#contact {
+    text-align: center;
+    color: white;
+}

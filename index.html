@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="img/logo.jpg" alt="" height="70px" width="50px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">درباره ما</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">تماس با ما</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    خدمات ما                       
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="چیزی بنویسید..." aria-label="Search" style="direction: rtl;">
+                  <button class="btn btn-outline-success" type="submit">جستجو</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <div class="content">
+        <header class="page-header gradient">
+            <div class="container pt-3">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-5">
+                        <img src="img/headerimg.svg" alt="" height="600px" width="600px">
+                    </div>
+                    <div class="col-md-5 headerr">
+                        <h2>
+                            لورم ایپسوم
+                        </h2>
+                        <p>
+                            لورم ایپسوم دولور سیت آمت کنسکترور آد پیسینگ بقیه این متن رو به خاطر نمیاورم و معنی خاصی هم نمیدهد
+                        </p>
+                        <button type="button" class="btn btn-outline-warning btn-lg">
+                            بیشتر بدانید...
+                        </button>
+                        <button type="button" class="btn btn-outline-danger btn-lg">
+                            تماس با ما
+                        </button>
+
+
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,160L60,186.7C120,213,240,267,360,250.7C480,235,600,149,720,149.3C840,149,960,235,1080,245.3C1200,256,1320,192,1380,160L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+        </header>
+        <section class="techs">
+            <div class="container just">
+                <div class="row g-4">
+
+                    <div class="col-md-2">
+                        <img src="img/techs/htmlicon.png" alt="" class="img-fluid">
+                        <br>
+                        <p class="underlinetxt">HTML</p>
+                    </div>
+
+                    <div class="col-md-2">
+                        <img src="img/techs/cssicon.png" alt="" class="img-fluid">
+                        <br>
+                        <p class="underlinetxt">CSS</p>
+                    </div>
+
+                    <div class="col-md-2">
+                        <img src="img/techs/jsicon.png" alt="" class="img-fluid">
+                        <br>
+                        <p class="underlinetxt">JS</p>
+                    </div>
+
+                    <div class="col-md-2">
+                        <img src="img/techs/Bootstrapicon.png" alt="" class="img-fluid">
+                        <p class="underlinetxt">bootstrap</p>
+                    </div>
+
+                    <div class="col-md-2 django">
+                        <img src="img/techs/djangoicon.png" alt="" class="img-fluid">
+                        <br>
+                        <p class="underlinetxt">django</p>
+                    </div>
+
+                    <div class="col-md-2 react">
+                        <img src="img/techs/reacticon.png" alt="" class="img-fluid">
+                        <br>
+                        <p class="underlinetxt">React</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="feature gradient">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,96C96,96,192,96,288,112C384,128,480,160,576,149.3C672,139,768,85,864,85.3C960,85,1056,139,1152,154.7C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+            <div class="container">
+                <div class="row align-items-center justify-content-center">                    
+                    <div class="col-md-5">
+                        <img src="img/featureimg.svg" alt="" height="400px" width="400px">
+                    </div>
+                    <div class="col-md-6 c1">
+                        <h1 my-3>لورم سازی، مستقل و حرفه ای</h1>
+                        <p class="my-4">
+                            ساخت انواع لورم ایپسوم با بهترین کیفیت در کشور ایران، با استدیو لورم ایپسوم
+                        </p>
+                        <ul class="ul1">
+                            <li class="li1">لورم ایپسوم</li>
+                            <li class="li1">دولور سیت</li>
+                            <li class="li1">آمت کنستکتترور</li>
+                            <li class="li1">آد پیسیتنگ</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,96C96,96,192,96,288,112C384,128,480,160,576,149.3C672,139,768,85,864,85.3C960,85,1056,139,1152,154.7C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        </section>
+        <section class="icons">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-4"><div class="icon gradient mb-4">
+                        <svg class="ic" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-controller" viewBox="0 0 16 16">
+                        <path d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1v-1z"/>
+                        <path d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729c.14.09.266.19.373.297.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466.206.875.34 1.78.364 2.606.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527-1.627 0-2.496.723-3.224 1.527-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.34 2.34 0 0 1 .433-.335.504.504 0 0 1-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a13.748 13.748 0 0 0-.748 2.295 12.351 12.351 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.354 12.354 0 0 0-.339-2.406 13.753 13.753 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27-1.036 0-2.063.091-2.913.27z"/>
+                      </svg>
+                    </div>
+                    <h3>لورم ایپسوم حرفه ای</h3>
+                    <p>لذت لورم با کیفیت و زیبا را از ما بخواهید</p>
+                </div>
+                    <div class="col-md-4"><div class="icon gradient mb-4">
+                        <svg class="ic" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pc-display" viewBox="0 0 16 16">
+                            <path d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V1Zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0Zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0ZM9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5ZM1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2H1.5Z"/>
+                          </svg>
+                    </div>
+                    <h3>پلتفرم محور</h3>
+                    <p>لورم های ما برای تمامی لورم های مختلف بهینه سازی میشود</p>
+                </div>
+                    <div class="col-md-4"><div class="icon gradient mb-4">
+                        <svg class="ic" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                            <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                          </svg>
+                    </div>
+                    <h3>با سابقه</h3>
+                    <p>تیم ما متشکل از لورمسازان با تجربه برای لذت حداکثری شما است</p>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L40,197.3C80,203,160,213,240,218.7C320,224,400,224,480,213.3C560,203,640,181,720,149.3C800,117,880,75,960,64C1040,53,1120,75,1200,85.3C1280,96,1360,96,1400,96L1440,96L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 txt">
+                        <h1>لذت لورم با لورم ایپسوم</h1>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+                    </div>
+                </div>
+                <div class="row my-3 g-3">
+                    <div class="col-md-4"><img src="img/c1.jpg" alt="" class="img-fluid"></div>
+                    <div class="col-md-4"><img src="img/c2.jpg" alt="" class="img-fluid"></div>
+                    <div class="col-md-4"><img src="img/c3.jpg" alt="" class="img-fluid"></div>
+                </div>
+            </div>
+            <div class="row mt-5 justify-content-end">
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-outline-primary">
+                        <a href="#" style="text-decoration: none;">اینستاگرام ما</a>
+                    </button>
+
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,32L40,69.3C80,107,160,181,240,202.7C320,224,400,192,480,160C560,128,640,96,720,106.7C800,117,880,171,960,181.3C1040,192,1120,160,1200,138.7C1280,117,1360,107,1400,101.3L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+        </section>
+        <section class="footer gradient">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,96C96,96,192,96,288,112C384,128,480,160,576,149.3C672,139,768,85,864,85.3C960,85,1056,139,1152,154.7C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+
+            <h2 id="contact">راه های ارتباطی</h2>
+            <div class="container my-5">
+
+                <footer class="text-center text-lg-start">
+                  <div class="container d-flex justify-content-center py-5">
+                    <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+                      <img src="img/icons/facebook.png" alt="">
+                    </button>
+                    
+                    <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+                      <img src="img/icons/instagram.png" alt="">
+                    </button>
+                    <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+                      <img src="img/icons/telegram.png" alt="">
+                    </button>
+                    <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+                      <img src="img/icons/whatsapp.png" alt="">
+                    </button>
+                  </div>
+              
+                  <!-- Copyright -->
+                  <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                    © 2020 Copyright:
+                    <a class="text-white" href="https://mdbootstrap.com/">sampellink.com</a>
+                  </div>
+                  <!-- Copyright -->
+                </footer>
+                
+              </div>
+              <!-- End of .container -->
+        </section>
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
